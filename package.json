@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "deso-protocol": "^3.4.1",
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-deso-protocol": "^0.0.3",
+    "react-dom": "^19.1.0",
+    "react-toastify": "^11.0.5"
+  }
+}
