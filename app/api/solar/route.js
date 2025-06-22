@@ -1,5 +1,5 @@
-import { backgroundCheckNFT } from '@/lib/backgroundCheckNFT';
-import { getOrCreateUserSimulation } from '@/lib/simulation';
+// import { backgroundCheckNFT } from '@/lib/backgroundCheckNFT';
+// import { getOrCreateUserSimulation } from '@/lib/simulation';
 const solarPanelPricePerWatt=0.5
 
 export async function POST(request) {

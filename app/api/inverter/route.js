@@ -1,4 +1,4 @@
-import { getOrCreateUserSimulation } from '@/lib/simulation';
+// import { getOrCreateUserSimulation } from '@/lib/simulation';
 const inverterPricePerWatt = 0.15
 export async function POST(request) {
     // const {searchParams}= new URL(request.url)

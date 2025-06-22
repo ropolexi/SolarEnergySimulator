@@ -104,12 +104,13 @@ export default function HomePage() {
           <h1>Solar Energy Simulator</h1>
           <div className="time-display">
             <span>Days: {time.days}</span>
-
+            {userID &&
             <span>
               Time: {String(time.hour).padStart(2, '0')}:
               {String(time.minute).padStart(2, '0')}:
               {String(time.second).padStart(2, '0')}
             </span>
+            }
           </div>
         </div>
         <p className="subtitle">Simulates energy generation and load management</p>

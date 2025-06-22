@@ -39,7 +39,7 @@ export default function InverterItems({ inverter, userID ,onUpdate}) {
             <ul className="item-grid">
                 {inverter.map(inv => (
                     <li key={inv.id} className="card">
-                        <img src="/img/transformer-7323560_640.png" alt="Inverter" width={128} />
+                        <img src={inv.imageURL} alt="Inverter" width={128} />
                         <div>Max Power: {inv.maxPower}W</div>
                         <div>Power: {parseFloat(inv.power).toFixed(2)}W</div>
                         {/* <button onClick={() => removeInverter(inv.id)}>Sell</button> */}

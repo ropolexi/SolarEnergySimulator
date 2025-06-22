@@ -36,7 +36,7 @@ export default function BatteryItem({ batteries, userID, onUpdate }) {
       <ul className="item-grid">
         {batteries.map(battery => (
           <li key={battery.id} className="card">
-            <img src="/img/rechargeable-battery-147182_640.png" alt="Battery" width={128} />
+            <img src={battery.imageURL} alt="Battery" width={128} />
             <div>Capacity: {parseFloat(battery.capacity)}Wh</div>
             <div>Charge: {parseFloat(battery.charge).toFixed(2)}Wh</div>
             <div className="progress-bar">

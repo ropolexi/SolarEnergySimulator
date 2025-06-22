@@ -52,7 +52,7 @@ export default function LoadItems({ load, userID,onUpdate }) {
             <ul className="item-grid">
                 {load.map(loadItem => (
                     <li key={loadItem.id} className="card">
-                        <img src="/img/gear-1674891_640.png" alt="Load" width={128} />
+                        <img src={loadItem.imageURL} alt="Load" width={128} />
                         <div>On: {String(loadItem.on)}</div>
                         <div className="button-group">
                             {/* <button onClick={() => removeLoad(loadItem.id)}>Remove</button> */}

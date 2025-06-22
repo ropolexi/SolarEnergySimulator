@@ -1,4 +1,4 @@
-import { getOrCreateUserSimulation } from '@/lib/simulation';
+// import { getOrCreateUserSimulation } from '@/lib/simulation';
 const batteryPricePerWh=0.3
 
 export async function POST(request) {

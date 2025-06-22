@@ -39,7 +39,7 @@ export default function SolarPanelsItem({ solarPanels, userID ,onUpdate}) {
       <ul className="item-grid">
         {solarPanels.map(panel => (
           <li key={panel.id} className="card">
-            <img src="/img/solar-panel-154549_640.png" alt="Solar Panel" width={128} />
+            <img src={panel.imageURL} alt="Solar Panel" width={128} />
             <div>Max Power: {panel.maxPower}W</div>
             <div>Power: {parseFloat(panel.power).toFixed(2)}W</div>
             {/* <button onClick={() => removeSolar(panel.id)}>Sell</button> */}

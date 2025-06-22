@@ -1,3 +1,4 @@
+'use server'
 import { getOrCreateUserSimulation } from '@/lib/simulation';
 
 export async function POST(request) {
