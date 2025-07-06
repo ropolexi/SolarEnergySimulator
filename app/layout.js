@@ -1,3 +1,4 @@
+import Navbar from './components/Navbar/Navbar';
 import './styles/global.css';
 import { startSimulationLoop } from '@/lib/backgroundSimulation';
 
@@ -12,7 +13,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+        </body>
     </html>
   )
 }

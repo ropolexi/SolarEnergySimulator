@@ -1,7 +1,7 @@
 // hooks/useSimulationData.js
 import { useState, useEffect } from "react";
 
-export default function useSimulationData(userID) {
+export default function useSimulationData(userID,username) {
 
   const [data, setData] = useState(null);
   const [solarPanels, setSolarPanels] = useState([]);
@@ -25,7 +25,7 @@ export default function useSimulationData(userID) {
   async function fetchStatus() {
     try {
       if (!userID) return;
-      const res = await fetch(`/api/status?userID=${encodeURIComponent(userID)}`);
+      const res = await fetch(`/api/status?userID=${encodeURIComponent(userID)}&username=${username}`);
       if (!res.ok) throw new Error('Failed to fetch status');
       const data = await res.json();
       if(data.sim){

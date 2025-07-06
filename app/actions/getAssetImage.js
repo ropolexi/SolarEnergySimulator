@@ -1,5 +1,5 @@
 "use server";
-const owner_id="BC1YLjRFeYCS6zVhtJYJprcESFTWHDJHZAjvK892PeqRpuuKgwo5YJv"
+import { owner_id } from "@/config/header";
 
 export async function getAssetImage(PostHashHex) {
   try {

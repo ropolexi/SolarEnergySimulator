@@ -1,10 +1,11 @@
 {
   "BC1YLhBH8oPqRRAejbUu9BbFquhLFz6GQ8ZbKk6SAWtFsbdcthVTEw8": {
-    "time_seconds": 58500,
+    "username": "BoyWhoLovedBurger",
+    "time_seconds": 9900,
     "time": {
-      "days": 0,
-      "hour": 16,
-      "minute": 15,
+      "days": 1,
+      "hour": 2,
+      "minute": 45,
       "second": 0
     },
     "lastUpdateTime": 0,
@@ -12,7 +13,7 @@
       {
         "id": 1,
         "maxPower": 550,
-        "power": 243.25877962045092,
+        "power": 0,
         "imageURL": [
           "https://images.deso.org/c0619b26adc87933fe3f621ead025e3ad6aca17b3077b544d34a2344eff32a57.webp"
         ]
@@ -20,7 +21,7 @@
       {
         "id": 2,
         "maxPower": 550,
-        "power": 243.25877962045092,
+        "power": 0,
         "imageURL": [
           "https://images.deso.org/c0619b26adc87933fe3f621ead025e3ad6aca17b3077b544d34a2344eff32a57.webp"
         ]
@@ -28,7 +29,7 @@
       {
         "id": 3,
         "maxPower": 550,
-        "power": 243.25877962045092,
+        "power": 0,
         "imageURL": [
           "https://images.deso.org/c0619b26adc87933fe3f621ead025e3ad6aca17b3077b544d34a2344eff32a57.webp"
         ]
@@ -36,7 +37,7 @@
       {
         "id": 4,
         "maxPower": 550,
-        "power": 243.25877962045092,
+        "power": 0,
         "imageURL": [
           "https://images.deso.org/c0619b26adc87933fe3f621ead025e3ad6aca17b3077b544d34a2344eff32a57.webp"
         ]
@@ -44,7 +45,7 @@
       {
         "id": 5,
         "maxPower": 550,
-        "power": 243.25877962045092,
+        "power": 0,
         "imageURL": [
           "https://images.deso.org/c0619b26adc87933fe3f621ead025e3ad6aca17b3077b544d34a2344eff32a57.webp"
         ]
@@ -52,7 +53,7 @@
       {
         "id": 6,
         "maxPower": 550,
-        "power": 243.25877962045092,
+        "power": 0,
         "imageURL": [
           "https://images.deso.org/c0619b26adc87933fe3f621ead025e3ad6aca17b3077b544d34a2344eff32a57.webp"
         ]
@@ -60,7 +61,7 @@
       {
         "id": 7,
         "maxPower": 550,
-        "power": 243.25877962045092,
+        "power": 0,
         "imageURL": [
           "https://images.deso.org/c0619b26adc87933fe3f621ead025e3ad6aca17b3077b544d34a2344eff32a57.webp"
         ]
@@ -70,7 +71,7 @@
       {
         "id": 1,
         "capacity": 1000,
-        "charge": 999.9999993989495,
+        "charge": 298.1115618379745,
         "imageURL": [
           "https://images.deso.org/3a084a9becf00c56280b657a890e5084e58c8cf27c84c0eabc3eb2f2427b17b5.webp"
         ]
@@ -78,7 +79,7 @@
       {
         "id": 2,
         "capacity": 1000,
-        "charge": 999.9999993989495,
+        "charge": 298.1115618379745,
         "imageURL": [
           "https://images.deso.org/3a084a9becf00c56280b657a890e5084e58c8cf27c84c0eabc3eb2f2427b17b5.webp"
         ]
@@ -86,9 +87,17 @@
       {
         "id": 3,
         "capacity": 1000,
-        "charge": 999.9999993989495,
+        "charge": 298.1115618379745,
         "imageURL": [
           "https://images.deso.org/3a084a9becf00c56280b657a890e5084e58c8cf27c84c0eabc3eb2f2427b17b5.webp"
+        ]
+      },
+      {
+        "id": 4,
+        "capacity": 10000,
+        "charge": 2981.115618379745,
+        "imageURL": [
+          "https://images.deso.org/aca51fe7cdc9f05afe2f535f9e5850ad76bfc96568a69b3a5fab959b07c277ba.webp"
         ]
       }
     ],
@@ -107,7 +116,7 @@
       {
         "id": 1,
         "maxPower": 4000,
-        "power": 1702.8114501305515,
+        "power": 1000,
         "on": false,
         "switch": false,
         "imageURL": [
@@ -116,46 +125,47 @@
       }
     ],
     "nextSolarPanelId": 8,
-    "nextBatteryId": 4,
+    "nextBatteryId": 5,
     "nextLoadId": 2,
     "nextInverterId": 2,
     "salery": 0,
     "bankBalance": 0,
     "assetsValue": 0,
-    "solarEarning": 4.577828312921832,
+    "solarEarning": 239.16093584062213,
     "gridPowerInCost": 4.887500000000007,
-    "loadRevenue": 26.21999999999989,
+    "loadRevenue": 4637.489999995234,
     "stats": {
-      "totalGridPowerIn": 1000702.8114501305,
-      "solarKWhGenerated": 81.52828312921832,
-      "solarCycle": 0.4422886902190017,
-      "totalSolarPanelPower": 1702.8114573431565,
+      "totalGridPowerIn": 1000000,
+      "solarKWhGenerated": 12451.859358406246,
+      "solarCycle": -0.7518398074789773,
+      "totalSolarPanelPower": 0,
       "totalLoad": 1000,
-      "maxPowerFromBattery": 11999.99998557479,
+      "maxPowerFromBattery": 16501.801215574673,
       "totalInverterPower": 4000,
       "totalPowerAvailableForLoad": 1000,
-      "totalPowerFromBattery": 3.546676355295176,
-      "totalChargeInBattery": 2999.9999963936975,
-      "totalBatteryCapacity": 3000,
-      "totalPowerForChargingBatteries": 0.000007212604941742029,
-      "gridPowerIn": -702.8114501305515,
-      "powerToSell": 702.8114501305515,
-      "batteryChargeDischargePower": 0.000007212604941742029,
+      "totalPowerFromBattery": 1000,
+      "totalChargeInBattery": 4125.450303893668,
+      "totalBatteryCapacity": 13000,
+      "totalPowerForChargingBatteries": 0,
+      "gridPowerIn": 0,
+      "powerToSell": 0,
+      "batteryChargeDischargePower": -1000,
       "totalMaxSolarPanelPower": 3850,
       "roi": 0,
-      "totalUnresetSolarEarnings": 4.577828312921832,
-      "totalUnresetLoadEarnings": 26.21999999999989,
+      "totalUnresetSolarEarnings": 239.16093584062213,
+      "totalUnresetLoadEarnings": 4637.489999995234,
       "totalUnresetgridPowerInCost": 4.887500000000007,
       "buyingRatePerkWh": 0.23,
       "sellingRatePerkWh": 0.1
     }
   },
-  "BC1YLjRFeYCS6zVhtJYJprcESFTWHDJHZAjvK892PeqRpuuKgwo5YJv": {
-    "time_seconds": 58500,
+  "BC1YLiUt3iQG4QY8KHLPXP8LznyFp3k9vFTg2mhhu76d1Uu2WMw9RVY": {
+    "username": "Brootle",
+    "time_seconds": 9900,
     "time": {
-      "days": 0,
-      "hour": 16,
-      "minute": 15,
+      "days": 1,
+      "hour": 2,
+      "minute": 45,
       "second": 0
     },
     "lastUpdateTime": 0,
@@ -174,9 +184,156 @@
     "gridPowerInCost": 0,
     "loadRevenue": 0,
     "stats": {
-      "totalGridPowerIn": 1000702.8114501305,
+      "totalGridPowerIn": 1000000,
       "solarKWhGenerated": 0,
-      "solarCycle": 0.4422886902190017,
+      "solarCycle": -0.7518398074789773,
+      "totalSolarPanelPower": 0,
+      "totalLoad": 0,
+      "maxPowerFromBattery": 0,
+      "totalInverterPower": 0,
+      "totalPowerAvailableForLoad": 0,
+      "totalPowerFromBattery": 0,
+      "totalChargeInBattery": 0,
+      "totalBatteryCapacity": 0,
+      "totalPowerForChargingBatteries": 0,
+      "gridPowerIn": 0,
+      "powerToSell": 0,
+      "batteryChargeDischargePower": 0,
+      "totalMaxSolarPanelPower": 0,
+      "roi": 0,
+      "totalUnresetSolarEarnings": 0,
+      "totalUnresetLoadEarnings": 0,
+      "totalUnresetgridPowerInCost": 0,
+      "buyingRatePerkWh": 0.23,
+      "sellingRatePerkWh": 0.1
+    }
+  },
+  "BC1YLgzJn2rWMBVspzoj6QgVCfu8qjghbbEmkbGuji6JDdqntJPra9G": {
+    "username": "B",
+    "time_seconds": 9900,
+    "time": {
+      "days": 1,
+      "hour": 2,
+      "minute": 45,
+      "second": 0
+    },
+    "lastUpdateTime": 0,
+    "solarPanels": [],
+    "batteries": [],
+    "loads": [],
+    "inverters": [],
+    "nextSolarPanelId": 1,
+    "nextBatteryId": 1,
+    "nextLoadId": 1,
+    "nextInverterId": 1,
+    "salery": 0,
+    "bankBalance": 0,
+    "assetsValue": 0,
+    "solarEarning": 0,
+    "gridPowerInCost": 0,
+    "loadRevenue": 0,
+    "stats": {
+      "totalGridPowerIn": 1000000,
+      "solarKWhGenerated": 0,
+      "solarCycle": -0.7518398074789773,
+      "totalSolarPanelPower": 0,
+      "totalLoad": 0,
+      "maxPowerFromBattery": 0,
+      "totalInverterPower": 0,
+      "totalPowerAvailableForLoad": 0,
+      "totalPowerFromBattery": 0,
+      "totalChargeInBattery": 0,
+      "totalBatteryCapacity": 0,
+      "totalPowerForChargingBatteries": 0,
+      "gridPowerIn": 0,
+      "powerToSell": 0,
+      "batteryChargeDischargePower": 0,
+      "totalMaxSolarPanelPower": 0,
+      "roi": 0,
+      "totalUnresetSolarEarnings": 0,
+      "totalUnresetLoadEarnings": 0,
+      "totalUnresetgridPowerInCost": 0,
+      "buyingRatePerkWh": 0.23,
+      "sellingRatePerkWh": 0.1
+    }
+  },
+  "BC1YLgRjkj3zCMyPXUkSs4mDLzst5mX41VpHf4L5deKH8mPE47G4CuV": {
+    "username": "Bbbb",
+    "time_seconds": 9900,
+    "time": {
+      "days": 1,
+      "hour": 2,
+      "minute": 45,
+      "second": 0
+    },
+    "lastUpdateTime": 0,
+    "solarPanels": [],
+    "batteries": [],
+    "loads": [],
+    "inverters": [],
+    "nextSolarPanelId": 1,
+    "nextBatteryId": 1,
+    "nextLoadId": 1,
+    "nextInverterId": 1,
+    "salery": 0,
+    "bankBalance": 0,
+    "assetsValue": 0,
+    "solarEarning": 0,
+    "gridPowerInCost": 0,
+    "loadRevenue": 0,
+    "stats": {
+      "totalGridPowerIn": 1000000,
+      "solarKWhGenerated": 0,
+      "solarCycle": -0.7518398074789773,
+      "totalSolarPanelPower": 0,
+      "totalLoad": 0,
+      "maxPowerFromBattery": 0,
+      "totalInverterPower": 0,
+      "totalPowerAvailableForLoad": 0,
+      "totalPowerFromBattery": 0,
+      "totalChargeInBattery": 0,
+      "totalBatteryCapacity": 0,
+      "totalPowerForChargingBatteries": 0,
+      "gridPowerIn": 0,
+      "powerToSell": 0,
+      "batteryChargeDischargePower": 0,
+      "totalMaxSolarPanelPower": 0,
+      "roi": 0,
+      "totalUnresetSolarEarnings": 0,
+      "totalUnresetLoadEarnings": 0,
+      "totalUnresetgridPowerInCost": 0,
+      "buyingRatePerkWh": 0.23,
+      "sellingRatePerkWh": 0.1
+    }
+  },
+  "BC1YLhyuDGeWVgHmh3UQEoKstda525T1LnonYWURBdpgWbFBfRuntP5": {
+    "username": "nader",
+    "time_seconds": 9900,
+    "time": {
+      "days": 1,
+      "hour": 2,
+      "minute": 45,
+      "second": 0
+    },
+    "lastUpdateTime": 0,
+    "solarPanels": [],
+    "batteries": [],
+    "loads": [],
+    "inverters": [],
+    "nextSolarPanelId": 1,
+    "nextBatteryId": 1,
+    "nextLoadId": 1,
+    "nextInverterId": 1,
+    "salery": 0,
+    "bankBalance": 0,
+    "assetsValue": 0,
+    "solarEarning": 0,
+    "gridPowerInCost": 0,
+    "loadRevenue": 0,
+    "stats": {
+      "totalGridPowerIn": 1000000,
+      "solarKWhGenerated": 0,
+      "solarCycle": -0.7518398074789773,
       "totalSolarPanelPower": 0,
       "totalLoad": 0,
       "maxPowerFromBattery": 0,

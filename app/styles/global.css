@@ -173,3 +173,229 @@ h2 {
   height: 100%;
   transition: width 0.3s ease;
 }
+
+.navigation-bar {
+  background-color: #333; /* Dark background */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.navigation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block; /* Makes list horizontal */
+}
+
+.navigation-item {
+  display: inline-block; /* Keeps list items horizontal */
+  margin-right: 20px; /* Space between items */
+}
+
+.navigation-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.navigation-link:hover {
+  color: #ddd; /* Slightly lighter color on hover */
+}
+
+.component-item {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.component-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.stats-overview {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stats-panel {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.system-overview {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.username-form {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.username-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.username-form label {
+  margin-bottom: 5px;
+}
+
+.username-form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.username-form button {
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Full width on smaller screens */
+}
+
+.username-form button:hover {
+  background-color: #27ae60;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.time-display {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: grid;
+
+  grid-gap: 20px;
+}
+
+
+.public-key {
+  font-size: 12px; /* Reduced font size */
+  font-weight: 300; /* Lighter font weight */
+  /* Optional background color: */
+  /* background-color: #f9f9f9; */
+}
+
+.description {
+  font-size: 14px; /* Slightly smaller font size */
+  color: #777; /* Grayed-out text */
+
+}
+
+.top-layer-metrics {
+  display: grid; /* Enable grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive columns */
+  gap: 10px; /* Spacing between metrics */
+  margin-bottom: 20px; /* Spacing below the metrics */
+  padding: 10px;
+  background-color: #f9f9f9; /* Subtle background */
+}
+
+.top-layer-metrics > * { /* Style each child element */
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.stats-panel {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+
+
+.username-form {
+  margin-bottom: 30px;
+}
+
+
+/* General Layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem; /* Using rem for better scalability */
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.time-display {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Metrics Section */
+.metrics-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1.5rem; /* Increased spacing */
+    background-color: #f9f9f9;
+    padding: 0.75rem;
+    border-radius: 5px;
+}
+
+.metrics-overview > * {
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+
+/* Username Form */
+.username-form {
+    margin-bottom: 1.5rem;
+}
+
+
+
+/* System Overview and Solar Panels */
+.system-overview,
+.solar-panels {
+    margin-bottom: 1.5rem;
+}
+/*  Use display: grid; on StatsPanel and SystemOverview for more advanced layout */
